@@ -6,7 +6,7 @@ gemspec
 gem 'rake'
 gem 'json', '~> 1.8.3'
 
-gem 'rails', '~> 4.2.7.1'
+gem 'rails', '~> 4.2', '>= 4.2.8'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.0'
