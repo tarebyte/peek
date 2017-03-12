@@ -9,5 +9,10 @@ gemfile:
   - Gemfile # Rails 5
   - Gemfile-rails42
 
+matrix:
+  exclude:
+    - rvm 2.4.0
+    - Gemfile-rails42
+
 notifications:
   email: false
